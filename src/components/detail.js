@@ -8,7 +8,7 @@ const Detail = (x) => {
     const product = () => {
         if(state.info.description===""){
             return(
-                <p>Your hero doesnt exist!</p>
+                <p>Desciption not available</p>
                 );    
                 
         }else{
@@ -20,7 +20,7 @@ const Detail = (x) => {
     return(
         
         <Card.ImgOverlay>
-        <Card.Title><h2>{state.info.name}</h2></Card.Title>
+        <Card.Title><h1>{state.info.name}</h1></Card.Title>
         <Card.Text>
         <h5>About</h5>{product()}
         </Card.Text>
