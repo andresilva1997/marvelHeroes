@@ -40,7 +40,7 @@ const Characters = () => {
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey={c.id}>
-                                <Character info={c} key={c.id}/>
+                                <Detail info={c} key={c.id}/>
                             </Accordion.Collapse>
                         </Card>                    
                     ))}
